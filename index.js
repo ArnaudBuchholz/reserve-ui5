@@ -82,26 +82,26 @@ job.libs.forEach(({ relative, source }) => {
 
 
 module.exports = {
-    schema: {
-      'version': {
-        type: 'string',
-        defaultValue: 'latest'
-      },
-      'cache': {
-        type: 'string',
-        defaultValue: ''
-      },
-      'libs': {
-        type: 'object',
-        defaultValue: {}
-      }
+  schema: {
+    'version': {
+      type: 'string',
+      defaultValue: 'latest'
     },
-    
-    async validate (mapping) {
-      // Validate UI5
+    'cache': {
+      type: 'string',
+      defaultValue: ''
     },
-  
-    async redirect ({ mapping, match, redirect, request, response }) {
+    'libs': {
+      type: 'object',
+      defaultValue: {}
     }
+  },
+  
+  async validate (mapping) {
+    // Validate UI5
+  },
+
+  async redirect ({ mapping, match, redirect, request, response }) {
   }
+}
   
