@@ -1,6 +1,8 @@
 # REserve/**ui5**
 UI5 resources handler for [REserve](https://npmjs.com/package/reserve).
 
+> ⚠⚠⚠ The project has been moved under [REserve monorepo](https://github.com/ArnaudBuchholz/reserve).
+
 [![Package Quality](https://npm.packagequality.com/shield/reserve-ui5.svg)](https://packagequality.com/#?package=reserve-ui5)
 [![Known Vulnerabilities](https://snyk.io/test/github/ArnaudBuchholz/reserve-ui5/badge.svg?targetFile=package.json)](https://snyk.io/test/github/ArnaudBuchholz/reserve-ui5?targetFile=package.json)
 [![dependencies Status](https://david-dm.org/ArnaudBuchholz/reserve-ui5/status.svg)](https://david-dm.org/ArnaudBuchholz/reserve-ui5)
